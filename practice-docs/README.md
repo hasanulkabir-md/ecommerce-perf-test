@@ -43,8 +43,8 @@ Load tests executed with **Locust** at:
 - 500 users (spawn rate 20)  
 
 ### Response Times (Avg, 90%, 95%)
-![Response Time](docs/users_vs_response_detailed.png)
-
+![Response Time](./docs/users_vs_response_detailed.png)
+![Failures](./docs/users_vs_failures.png)
 ### Failures
 ![Failures](docs/users_vs_failures.png)
 
@@ -71,3 +71,4 @@ Load tests executed with **Locust** at:
 ```
 
 ---
+
