@@ -1,3 +1,4 @@
+
 ```markdown
 # 🧪 QA Practice Documentation – E-commerce Checkout API
 
@@ -17,7 +18,7 @@ It demonstrates structured **test case design, bug reporting, and load testing a
 ---
 
 ## 📝 Test Cases
-See [QA_TestCases.xlsx](QA_TestCases.xlsx).  
+See [QA_TestCases.xlsx](./QA_TestCases.xlsx).  
 Examples include:
 - Fetch product list (`GET /products`)  
 - Add valid/invalid items to cart (`POST /cart`)  
@@ -28,7 +29,7 @@ Examples include:
 ---
 
 ## 🐞 Bug Reports
-See [QA_BugReports.xlsx](QA_BugReports.xlsx).  
+See [QA_BugReports.xlsx](./QA_BugReports.xlsx).  
 Examples:
 - **BUG-001** → Checkout allows empty cart (High severity).  
 - **BUG-002** → Performance degradation at 500 users (High severity).  
@@ -44,11 +45,11 @@ Load tests executed with **Locust** at:
 
 ### Response Times (Avg, 90%, 95%)
 ![Response Time](./docs/users_vs_response_detailed.png)
-![Failures](./docs/users_vs_failures.png)
-### Failures
-![Failures](docs/users_vs_failures.png)
 
-### Summary (from [summary.csv](docs/summary.csv))
+### Failures
+![Failures](./docs/users_vs_failures.png)
+
+### Summary (from [summary.csv](./docs/summary.csv))
 | Users | Avg (ms) | 90% (ms) | 95% (ms) | Failures |
 |-------|----------|----------|----------|----------|
 | 50    | …        | …        | …        | …        |
@@ -71,4 +72,3 @@ Load tests executed with **Locust** at:
 ```
 
 ---
-
