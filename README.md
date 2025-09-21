@@ -39,8 +39,7 @@ ecommerce-perf-test/
 │   └── main.py
 ├── tests/            # Locust performance tests
 │   └── locustfile.py
-├── results/          # Exported reports (CSV/graphs/screenshots)
-├── docs/             # Screenshots for README
+├── results/          # Exported reports (CSV/screenshots)
 └── README.md
 
 ````
@@ -127,5 +126,6 @@ This project highlights:
 🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 
 ---
+
 
 
