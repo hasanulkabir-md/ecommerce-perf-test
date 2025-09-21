@@ -124,9 +124,8 @@ This project highlights:
 ---
 
 👨‍💻 **Author**: Md. Hasanul Kabir
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [Portfolio](https://your-portfolio.com)
-
-```
+🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 
 ---
+
 
