@@ -38,10 +38,6 @@ Examples:
 ---
 
 ## 📊 Performance Results
-Load tests executed with **Locust** at:
-- 50 users (spawn rate 5)  
-- 100 users (spawn rate 10)  
-- 500 users (spawn rate 20)  
 
 ### Response Times (Avg, 90%, 95%)
 ![Response Time](./docs/users_vs_response_detailed.png)
@@ -49,7 +45,10 @@ Load tests executed with **Locust** at:
 ### Failures
 ![Failures](./docs/users_vs_failures.png)
 
-### Summary (from [summary.csv](./docs/summary.csv))
+### Additional Graph
+![Users vs Response (simple)](./docs/users_vs_response.png)
+
+### Summary Table (from [summary.csv](./docs/summary.csv))
 | Users | Avg (ms) | 90% (ms) | 95% (ms) | Failures |
 |-------|----------|----------|----------|----------|
 | 50    | …        | …        | …        | …        |
@@ -72,3 +71,4 @@ Load tests executed with **Locust** at:
 ```
 
 ---
+
