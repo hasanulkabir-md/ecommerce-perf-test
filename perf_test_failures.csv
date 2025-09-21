@@ -1,0 +1,4 @@
+Method,Name,Error,Occurrences
+POST,/cart,"ConnectionRefusedError(111, 'Connection refused')",37
+POST,/checkout,"ConnectionRefusedError(111, 'Connection refused')",17
+GET,/products,"ConnectionRefusedError(111, 'Connection refused')",33
