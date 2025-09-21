@@ -40,15 +40,15 @@ Examples:
 ## 📊 Performance Results
 
 ### Response Times (Avg, 90%, 95%)
-![Response Time](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/users_vs_response_detailed.png?raw=true)
+![Response Time](./docs/users_vs_response_detailed.png)
 
 ### Failures
-![Failures](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/users_vs_failures.png?raw=true)
+![Failures](./docs/users_vs_failures.png)
 
 ### Additional Graph
-![Users vs Response](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/users_vs_response.png?raw=true)
+![Users vs Response](./docs/users_vs_response.png)
 
-### Summary (from [summary.csv](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/summary.csv))
+### Summary (from [summary.csv](./docs/summary.csv))
 
 ---
 
@@ -66,5 +66,6 @@ Examples:
 ```
 
 ---
+
 
 
