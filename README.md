@@ -129,5 +129,4 @@ This project highlights:
 ```
 
 ---
-Would you like me to also give you a **Python script to generate performance graphs** from Locust CSV results, so you can include professional-looking charts in the README?
-```
+
