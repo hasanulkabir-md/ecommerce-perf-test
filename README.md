@@ -88,7 +88,7 @@ Then open: [http://localhost:8089](http://localhost:8089)
 
 ### Locust Dashboard
 
-![Locust Dashboard](docs/locust_dashboard.png)
+![Locust Dashboard](screenshots/locust_dashboard.png)
 
 ### Response Time Distribution
 
@@ -126,6 +126,7 @@ This project highlights:
 🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 
 ---
+
 
 
 
