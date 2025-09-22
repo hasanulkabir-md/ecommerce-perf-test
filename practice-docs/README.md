@@ -1,25 +1,23 @@
-
-```markdown
 # 🧪 QA Practice Documentation – E-commerce Checkout API
 
 ## 📌 Overview
-This folder contains **QA documentation and performance testing results** for the `ecommerce-perf-test` project.  
-It demonstrates structured **test case design, bug reporting, and load testing analysis** — valuable skills for a QA / Software Test Engineer role.  
+This folder contains **QA documentation and performance testing results** for the [`ecommerce-perf-test`](../) project.  
+It demonstrates structured **test case design, bug reporting, and load testing analysis** — valuable skills for a QA / Software Test Engineer role.
 
 ---
 
 ## 📑 Contents
-- **QA_TestCases.xlsx** → Functional, negative, and performance test cases.  
-- **QA_BugReports.xlsx** → Logged bugs with severity, priority, and repro steps.  
-- **docs/** → Graphs, summary reports (CSV, PNG).  
-- **scripts/** → Utility scripts (`plot_results.py` for generating graphs, `generate_xlsx.py` for creating Excel docs).  
-- **README.md** → This documentation.  
+- [QA_TestCases.xlsx](./QA_TestCases.xlsx) → Functional, negative, and performance test cases.  
+- [QA_BugReports.xlsx](./QA_BugReports.xlsx) → Logged bugs with severity, priority, and repro steps.  
+- `docs/` → Graphs and summary reports (CSV, PNG).  
+- `scripts/` → Utility scripts (`plot_results.py`, `generate_xlsx.py`).  
+- `README.md` → This documentation.  
 
 ---
 
 ## 📝 Test Cases
 See [QA_TestCases.xlsx](./QA_TestCases.xlsx).  
-Examples include:
+Example scenarios:
 - Fetch product list (`GET /products`)  
 - Add valid/invalid items to cart (`POST /cart`)  
 - Checkout scenarios (`POST /checkout`)  
@@ -30,15 +28,22 @@ Examples include:
 
 ## 🐞 Bug Reports
 See [QA_BugReports.xlsx](./QA_BugReports.xlsx).  
-Examples:
+Example bugs:
 - **BUG-001** → Checkout allows empty cart (High severity).  
 - **BUG-002** → Performance degradation at 500 users (High severity).  
 - **BUG-003** → Cart not persistent after API restart (Medium severity).  
 
 ---
+
 ## 📊 Performance Results
 
-![Response](./docs/users_vs_response_detailed.png)
+Load tests executed with **Locust** at:
+- 50 users (spawn rate 5)  
+- 100 users (spawn rate 10)  
+- 500 users (spawn rate 20)  
+
+### Response Times (Avg, 90%, 95%)
+![Response Time](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_response_detailed.png)
 
 ### Failures
 ![Failures](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_failures.png)
@@ -46,16 +51,8 @@ Examples:
 ### Additional Graph
 ![Users vs Response](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_response.png)
 
-### Summary (from [summary.csv](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/summary.csv))
-
-### Failures
-![Failures](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_failures.png)
-
-### Additional Graph
-![Users vs Response](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_response.png)
-
-### Summary (from [summary.csv](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/summary.csv))
-
+### Summary (CSV)
+[summary.csv](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/summary.csv)
 
 ---
 
@@ -69,16 +66,4 @@ Examples:
 
 👨‍💻 **Author**: Md Hasanul Kabir  
 📌 MSc Computer Science & Technology  
-📍 Based in Feni / Nanjing  
-```
-
----
-
-
-
-
-
-
-
-
-
+📍 Based in Feni / Nanjing
