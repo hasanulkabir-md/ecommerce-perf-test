@@ -92,7 +92,7 @@ Then open: [http://localhost:8089](http://localhost:8089)
 
 ### Response Time Distribution
 
-![Performance Graph](docs/perf_graph.png)
+![Performance Graph](screenshots/locust_chart.png)
 
 **Findings:**
 
@@ -126,6 +126,7 @@ This project highlights:
 🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 
 ---
+
 
 
 
