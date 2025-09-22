@@ -113,9 +113,8 @@ Then open: [http://localhost:8089](http://localhost:8089)
 * Run tests in CI/CD (GitHub Actions) with pass/fail thresholds.
 
 ---
-## 📑 Extra QA Documentation (Practice Project)
+## 📑 QA Documentation
 
-For recruiters:
 👉 Check the dedicated QA documentation with **test cases, bug reports, and performance analysis** here:
 ➡️ [practice-docs/](./practice-docs)
 
@@ -142,6 +141,7 @@ This project highlights:
 🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 
 ---
+
 
 
 
