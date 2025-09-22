@@ -38,8 +38,7 @@ Examples:
 ---
 ## 📊 Performance Results
 
-### Response Times (Avg, 90%, 95%)
-![Response Time](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_response_detailed.png)
+![Response](./docs/users_vs_response_detailed.png)
 
 ### Failures
 ![Failures](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_failures.png)
@@ -74,6 +73,7 @@ Examples:
 ```
 
 ---
+
 
 
 
