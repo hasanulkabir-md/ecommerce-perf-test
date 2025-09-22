@@ -40,6 +40,7 @@ ecommerce-perf-test/
 ├── tests/            # Locust performance tests
 │   └── locustfile.py
 ├── results/          # Exported reports (CSV/screenshots)
+├── practice-docs/ # ✅ Extra QA documentation (test cases, bug reports, graphs)
 └── README.md
 
 ````
@@ -112,6 +113,19 @@ Then open: [http://localhost:8089](http://localhost:8089)
 * Run tests in CI/CD (GitHub Actions) with pass/fail thresholds.
 
 ---
+## 📑 Extra QA Documentation (Practice Project)
+
+For recruiters:
+👉 Check the dedicated QA documentation with **test cases, bug reports, and performance analysis** here:
+➡️ [practice-docs/](./practice-docs)
+
+Contents include:
+
+* [QA\_TestCases.xlsx](./practice-docs/QA_TestCases.xlsx) → Detailed functional & performance test cases
+* [QA\_BugReports.xlsx](./practice-docs/QA_BugReports.xlsx) → Logged bugs with severity & repro steps
+* [Performance Graphs](./practice-docs/docs) → Response time, failure rate, and CSV summary
+
+---
 
 ## 🎯 Impact
 
@@ -128,6 +142,7 @@ This project highlights:
 🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 
 ---
+
 
 
 
