@@ -49,6 +49,14 @@ Examples:
 
 ### Summary (from [summary.csv](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/summary.csv))
 
+### Failures
+![Failures](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_failures.png)
+
+### Additional Graph
+![Users vs Response](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_response.png)
+
+### Summary (from [summary.csv](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/summary.csv))
+
 
 ---
 
@@ -66,6 +74,7 @@ Examples:
 ```
 
 ---
+
 
 
 
