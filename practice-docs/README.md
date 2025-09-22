@@ -36,13 +36,18 @@ Examples:
 - **BUG-003** → Cart not persistent after API restart (Medium severity).  
 
 ---
-[
 ## 📊 Performance Results
-![Response Time](practice-docs/docs/users_vs_response_detailed.png)
-![Response Time](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/users_vs_response_detailed.png?raw=true)
-![Failures](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/users_vs_failures.png?raw=true)
-![Users vs Response](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/users_vs_response.png?raw=true)
-[Download Summary CSV](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/summary.csv)](https://github.com/hasanulkabir-md/ecommerce-perf-test/blob/main/practice-docs/docs/users_vs_response_detailed.png?raw=true)
+
+### Response Times (Avg, 90%, 95%)
+![Response Time](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_response_detailed.png)
+
+### Failures
+![Failures](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_failures.png)
+
+### Additional Graph
+![Users vs Response](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/users_vs_response.png)
+
+### Summary (from [summary.csv](https://raw.githubusercontent.com/hasanulkabir-md/ecommerce-perf-test/main/practice-docs/docs/summary.csv))
 
 
 ---
@@ -61,6 +66,7 @@ Examples:
 ```
 
 ---
+
 
 
 
